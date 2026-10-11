@@ -1,0 +1,36 @@
+---
+layout: homepage
+---
+<section class="section" id="about">
+  <div class="wrap section-grid">
+    <h2 class="section-title">About</h2>
+    <div class="section-body about">
+      <p class="about-lead">AI for Real-World Industrial Systems</p>
+      <p>
+        I am an M.S. student in the Industrial Artificial Intelligence Program of the Department of Industrial and Management Engineering at POSTECH.
+        I am advised by Prof. Sangwoo Mo in the <a href="https://sites.google.com/view/sangwoomo/moai-lab">Multimodal Orchestration of Artificial Intelligence (MOAI) Lab</a>.
+      </p>
+      <p>
+        My recent research focuses on AI for manufacturing.
+        I use time-series foundation models to analyze, forecast, and detect anomalies in sensor data collected from industrial processes.
+        The goal is to turn raw process signals into interpretable insights that support operational decision-making.
+      </p>
+      <p>
+        I am open to research collaborations and discussions on industrial AI.
+        Feel free to <a class="js-email" href="#about" data-u="{{ site.email_user }}" data-d="{{ site.email_domain }}">reach out by email</a><noscript> ({{ site.email_user }} [at] {{ site.email_domain }})</noscript>.
+      </p>
+      <h3 class="sub-title">Research Interests</h3>
+      <ul class="interests">
+        <li><strong>Time-Series Models</strong></li>
+        <li><strong>Multimodal Foundation Models</strong></li>
+        <li><strong>Agents for Process Operations</strong></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+{% include education.html %}
+
+{% include experience.html %}
+
+{% include publications.html %}

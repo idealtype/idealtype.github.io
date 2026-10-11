@@ -1,0 +1,17 @@
+<section class="section" id="experience">
+  <div class="wrap section-grid">
+    <h2 class="section-title">Experience</h2>
+    <div class="section-body timeline">
+      {% for x in site.data.experience %}
+      <div class="t-item">
+        <div class="t-top">
+          <h3 class="t-title">{{ x.role }}</h3>
+          {% if x.date %}<span class="t-date">{{ x.date }}</span>{% endif %}
+        </div>
+        <p class="t-sub">{{ x.org }}</p>
+        {% if x.areas %}<p class="t-detail"><span class="t-label">Research areas:</span> {{ x.areas }}</p>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

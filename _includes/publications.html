@@ -1,0 +1,25 @@
+<section class="section" id="publications">
+  <div class="wrap section-grid">
+    <h2 class="section-title">Publications</h2>
+    <div class="section-body">
+      <ul class="pub-list">
+        {% for p in site.data.publications.main %}
+        <li>
+          <p class="pub-title">{{ p.title }}</p>
+          {% if p.authors %}<p class="pub-authors">{{ p.authors }}</p>{% endif %}
+          {% if p.venue %}<p class="pub-venue">{{ p.venue }}</p>{% endif %}
+          {% if p.status %}<p class="pub-status">{{ p.status }}</p>{% endif %}
+          {% if p.arxiv or p.pdf or p.code or p.page %}
+          <p class="pub-links">
+            {% if p.arxiv %}<a href="{{ p.arxiv }}" rel="noopener">arXiv</a>{% endif %}
+            {% if p.pdf %}<a href="{{ p.pdf }}" rel="noopener">PDF</a>{% endif %}
+            {% if p.code %}<a href="{{ p.code }}" rel="noopener">Code</a>{% endif %}
+            {% if p.page %}<a href="{{ p.page }}" rel="noopener">Project</a>{% endif %}
+          </p>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

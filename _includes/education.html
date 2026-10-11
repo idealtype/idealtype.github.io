@@ -1,0 +1,17 @@
+<section class="section" id="education">
+  <div class="wrap section-grid">
+    <h2 class="section-title">Education</h2>
+    <div class="section-body timeline">
+      {% for e in site.data.education %}
+      <div class="t-item">
+        <div class="t-top">
+          <h3 class="t-title">{{ e.degree }}</h3>
+          {% if e.date %}<span class="t-date">{{ e.date }}</span>{% endif %}
+        </div>
+        <p class="t-sub">{{ e.school }}</p>
+        {% for d in e.details %}<p class="t-detail">{{ d }}</p>{% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
