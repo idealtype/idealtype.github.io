@@ -4,6 +4,7 @@
   --muted: #626870;
   --accent: #467f63;
   --accent-strong: #23362d;
+  --heading: #2e5a45;
   --line: #e2e5e8;
   --paper: #fff;
   --photo-width: 200px;
@@ -59,7 +60,7 @@ img { max-width: 100%; display: block; }
 /* Sections */
 .section-grid { padding-block: 30px; border-top: 1px solid var(--line); }
 #about .section-grid { border-top-color: #b3c4ba; }
-.section-title { margin-bottom: 14px; font-size: 21px; font-weight: 600; color: var(--text); }
+.section-title { margin-bottom: 14px; font-size: 21px; font-weight: 600; color: var(--heading); }
 .section-body { min-width: 0; }
 
 .about p + p { margin-top: 12px; }
