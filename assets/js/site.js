@@ -9,6 +9,7 @@
   /* Mobile menu */
   var btn = document.getElementById('menuBtn');
   var links = document.getElementById('navLinks');
+  if (!btn || !links) return;
   function setMenu(open) {
     links.classList.toggle('open', open);
     btn.setAttribute('aria-expanded', String(open));

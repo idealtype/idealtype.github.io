@@ -1,7 +1,7 @@
 # Basic information
 title: Sanghyeong Lee
 name_ko: 이상형
-position: Industrial AI Researcher
+position: Graduate Student
 affiliation: Industrial and Management Engineering, POSTECH
 affiliation_link: https://ime.postech.ac.kr/
 
@@ -20,7 +20,7 @@ favicon: assets/img/favicon.png
 favicon_svg: assets/img/favicon.svg
 
 # Search engine optimization
-description: Sanghyeong Lee is an industrial AI researcher at POSTECH working on time-series models, multimodal foundation models, and agents for manufacturing process operations.
+description: Sanghyeong Lee is a graduate student at POSTECH researching industrial AI, with a focus on time-series models, multimodal foundation models, and agents for manufacturing process operations.
 keywords: Sanghyeong Lee, 이상형, industrial AI, manufacturing AI, time-series models, multimodal foundation models, anomaly detection, POSTECH
 url: https://idealtype.github.io
 canonical: https://idealtype.github.io/
